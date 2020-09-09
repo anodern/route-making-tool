@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="未标题-3.png" />
+    <None Remove="logo_white.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="未标题-3.png" />
+    <Resource Include="logo_white.png" />
   </ItemGroup>
 
 </Project>
