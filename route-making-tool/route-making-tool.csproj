@@ -3,11 +3,20 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>route_making_tool</RootNamespace>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>bitbug_favicon.ico</ApplicationIcon>
     <Authors>anodern</Authors>
-    <Copyright>©2020 anodern. All rights reserved.</Copyright>
-    <PackageProjectUrl>www.anodern.com</PackageProjectUrl>
+    <Company>anodern</Company>
+    <Product>RouteMakingTool</Product>
+    <Copyright>©2021 anodern. All rights reserved.</Copyright>
+    <PackageProjectUrl>https://doc.anodern.com/doku.php?id=bd:route制作工具</PackageProjectUrl>
+    <Version>1.1.0</Version>
+    <RepositoryUrl>https://github.com/anodern/route-making-tool</RepositoryUrl>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>anodern.pfx</AssemblyOriginatorKeyFile>
+    <NeutralLanguage>zh-Hans</NeutralLanguage>
+    <Description>Route制作工具</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\.editorconfig" Link=".editorconfig" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>

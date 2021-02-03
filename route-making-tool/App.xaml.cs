@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace route生成器 {
+namespace route_making_tool {
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>

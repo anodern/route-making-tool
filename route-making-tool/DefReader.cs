@@ -67,7 +67,7 @@ namespace BusDriverFile {
                     if(temp.Equals("\"\"")) continue;
                     string path2 = temp[2..^1].Replace(".pmd",".pdd");
                     if(!File.Exists(path2)) {
-                        path2 = "base" + path2;
+                        path2 = "base/" + path2;
                     }
                     if(File.Exists(path2)) {
                         try {

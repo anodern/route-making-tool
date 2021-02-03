@@ -49,6 +49,8 @@ namespace BusDriverFile {
             if(br.ReadUInt32()!=fileHead) System.Diagnostics.Debug.WriteLine("MBD文件格式错误");
             nodeCount=br.ReadUInt32();
             originCount=br.ReadUInt32();
+            //DefLib.Load();
+            //ReadFile();
             try {
                 DefLib.Load();
                 ReadFile();

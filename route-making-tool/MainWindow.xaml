@@ -1,11 +1,11 @@
-﻿<Window x:Class="route生成器.MainWindow"
+﻿<Window x:Class="route_making_tool.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:route生成器"
+        xmlns:local="clr-namespace:route_making_tool"
         mc:Ignorable="d"
-        Title="Route制作" Height="379" Width="497" Drop="Window_Drop" FontSize="14" AllowDrop="True" ResizeMode="CanMinimize" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" >
+        Title="Route制作" Height="379" Width="497" Drop="Window_Drop" FontSize="14" AllowDrop="True" ResizeMode="CanMinimize" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label Content="       Route制作" HorizontalAlignment="Center" Height="50" VerticalAlignment="Top" Width="500" FontSize="30" Background="#FF2C6FFF" Foreground="White"/>
         <Label Content="线路" HorizontalAlignment="Left" Height="27" Margin="23,57,0,0" VerticalAlignment="Top" Width="37"/>
@@ -47,7 +47,7 @@
         <ComboBox x:Name="skyList" HorizontalAlignment="Left" Height="27" Margin="65,89,0,0" VerticalAlignment="Top" Width="100"/>
         <Label Content="光照" HorizontalAlignment="Left" Height="27" Margin="171,89,0,0" VerticalAlignment="Top" Width="38"/>
         <ComboBox x:Name="sunList" HorizontalAlignment="Left" Height="27" Margin="214,89,0,0" VerticalAlignment="Top" Width="100"/>
-        <Image HorizontalAlignment="Left" Height="44" VerticalAlignment="Top" Width="48" Source="未标题-3.png" Margin="5,2,0,0"/>
+        <Image HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="40" Source="/logo_white.png" Margin="10,5,0,0"/>
 
     </Grid>
 </Window>
